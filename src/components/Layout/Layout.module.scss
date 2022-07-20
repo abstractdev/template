@@ -1,0 +1,12 @@
+@use "../../sass/mixins" as *;
+
+.layout {
+  height: 100vh;
+  @include hFlex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  @include hFlex;
+}
